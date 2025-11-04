@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Comercer Master</title>
+
+    <link rel="stylesheet" href="/css/reset.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to E-Comercer Master</h1>
+        <a href="/">
+            <img src="/assets/images/logo.svg"
+                alt="E-Comercer Master brand logo: stylized icon representing online shopping alongside the wordmark E-Comercer Master; static emblem displayed in the page header; tone is modern, vibrant, inviting and accessible">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#Products">Products</a>
+                    </li>
+                    <li>
+                        <a href="#About">About</a>
+                    </li>
+                    <li>
+                        <a href="#FAQ">Services</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contact</a>
+                    </li>
+
+                </ul>
+            </nav>
+            <button>
+                <img src="/assets/images/icone_carrinho.svg" alt="Carrinho">
+            </button>
+        </a>
+
+    </header>
+    <main>
+        <section id="Home">
+            <h2>Home</h2>
+        </section>
+        <section id="Products">
+            <h2>Products</h2>
+            <ul>
+                <li>
+                    <figure>
+                        <img src="/assets/images/camiseta_roxa.jpg" alt="camisetaDev Em Dobro -Roxa">
+                        <figcaption>Camiseta Dev em Dobro</figcaption>
+                    </figure>
+                    <div>
+                        <span>Tamanho M</span>
+                        <span>Cor: Roxa</span>
+                        <span>R$ 79,90</span>
+                        <button>Comprar</button>
+                    </div>
+                </li>
+                <li>
+                    <figure>
+                        <img src="/assets/images/camiseta_roxa.jpg" alt="camisetaDev Em Dobro -Roxa">
+                        <figcaption>Camiseta Dev em Dobro</figcaption>
+                    </figure>
+                    <div>
+                        <span>Tamanho P</span>
+                        <span>Cor: Roxa</span>
+                        <span>R$ 99,90</span>
+                        <button>Comprar</button>
+                    </div>
+                </li>
+                <li>Product 3</li>
+            </ul>
+        </section>
+        <section id="About">
+            <h2>About</h2>
+        </section>
+        <section id="FAQ">
+            <h2>Services</h2>
+        </section>
+        <section id="Contact">
+            <h2>Contact</h2>
+        </section>
+
+
+
+
+    </main>
+    <footer>
+        <p>&copy; 2024 E-Comercer Master. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#Home">Home</a>
+                </li>
+                <li>
+                    <a href="#Products">Products</a>
+                </li>
+                <li>
+                    <a href="#About">About</a>
+                </li>
+                <li>
+                    <a href="#FAQ">Services</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+
+            </ul>
+        </nav>
+        <nav>
+
+            <ul>
+                <li>
+                    <a href="/privacy-policy.html">Privacy Policy</a>
+                </li>
+                <li>
+                    <a href="/terms-of-service.html">Terms of Service</a>
+                </li>
+                <li>
+                    <a href="/help.html">Help</a>
+                </li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/EComercerMaster" target="_blank"
+                        rel="noopener noreferrer">Facebook</a>
+                </li>
+                <li>
+                    <a href="https://www.twitter.com/EComercerMaster" target="_blank"
+                        rel="noopener noreferrer">Twitter</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/EComercerMaster" target="_blank"
+                        rel="noopener noreferrer">Instagram</a>
+                </li>
+            </ul>
+        </nav>
+
+
+    </footer>
+
+    <!-- [1] -->
+    <div id="modal-1" class="modal" aria-hidden="true">
+
+        <!-- [2] -->
+        <div tabindex="-1" data-micromodal-close>
+
+            <!-- [3] -->
+            <div role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+
+
+                <header>
+                    
+                    <h2 id="modal-1-title"> carrinho de compra</h2>
+
+                    <!-- [4] -->
+                    <button aria-label="Close modal" data-micromodal-close></button>
+                </header>
+
+                <div id="modal-1-content">
+                   <table>
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Descrição</th>
+                            <th>Preço</th>
+                            <th>Quantidade</th>
+                            <th>Total</th>
+                            <th></th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <img src="/assets/images/camiseta_roxa.jpg" alt="Ramiseta Roxa">
+                                <td>Camiseta Dev</td>
+                                <td>R$ 79,90</td>
+                                <td> <input type="number" value ="1" min ="1"></td>
+                                <td>R$ 79,90</td>
+                                <td><button id="Deletar">Remover</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <img src="/assets/images/caneca_devemdobro.jpg" alt="Caneca Dev em Dobro">
+                                <td>Caneca Dev</td>
+                                <td>R$ 80,90</td>
+                                <td> <input type="number" value ="1" min ="1"></td>
+                                <td>R$ 80,90</td>
+                                <td><button id="Deletar">Remover</button>
+                            </td>
+                        </tr>
+                    </tbody>
+
+
+                   </table>
+                   <div>
+                    <span id="total-carrinho">Total : R$0,00</span>
+                    <button id="finalizar-compra">Finalizar Compra</button>
+                   </div>
+                    
+                   
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/micromodal/dist/micromodal.min.js"></script>
+
+</body>
+
+</html>
