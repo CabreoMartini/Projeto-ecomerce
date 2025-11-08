@@ -1,0 +1,23 @@
+:root {
+    --cor-primaria: #c71909;
+    --cor-secundaria: #4CAF50;
+    --cor-fundo: #111111;
+    --cor-texto: #FFFFFF;
+    --cor-accento: #FFC107;
+    --cor-carrinho: #42278E;
+    --fonte-principal: 'Roboto', sans-serif;
+    --fonte-secundaria: 'Open Sans', sans-serif;
+}
+
+body{
+
+    font-family: 'roboto', sans-serif;
+    background-color: var(--cor-fundo);
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+
+}
