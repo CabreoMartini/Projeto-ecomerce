@@ -2,11 +2,14 @@
     --cor-primaria: #c71909;
     --cor-secundaria: #4CAF50;
     --cor-fundo: #111111;
-    --cor-fundo-secundario: rgb(48, 48, 48);
+    --cor-fundo-secundario: #29272A;
     --cor-texto: #FFFFFF;
     --cor-texto-secundario: #CCCCCC;
+    --cor-texto-footer: #7348a5;
     --cor-accento: #FFC107;
     --cor-carrinho: #42278E;
+    --cor-hover: #663AC7;
+    --cor-hover-secundario: #BCA2ED;
     --fonte-principal: 'Roboto', sans-serif;
     --fonte-secundaria: 'Open Sans', sans-serif;
 }

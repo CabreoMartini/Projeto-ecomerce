@@ -98,7 +98,7 @@ main .informacoes .adicionar-ao-carrinho {
 }
 
 main .informacoes .adicionar-ao-carrinho:hover {
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-hover);
 }
 
 
