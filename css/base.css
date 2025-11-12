@@ -2,7 +2,9 @@
     --cor-primaria: #c71909;
     --cor-secundaria: #4CAF50;
     --cor-fundo: #111111;
+    --cor-fundo-secundario: rgb(48, 48, 48);
     --cor-texto: #FFFFFF;
+    --cor-texto-secundario: #CCCCCC;
     --cor-accento: #FFC107;
     --cor-carrinho: #42278E;
     --fonte-principal: 'Roboto', sans-serif;
@@ -21,3 +23,4 @@ body{
         "footer";
 
 }
+

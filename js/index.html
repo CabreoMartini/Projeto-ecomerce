@@ -14,13 +14,14 @@
     <link rel="stylesheet" href="/css/styles.css">
     <link rel="stylesheet" href="/css/base.css">
     <link rel="stylesheet" href="/css/cabecalho.css">
+    <link rel="stylesheet" href="/css/produtos.css">
 </head>
 
 <body>
     <header class="cabecalho">
         <div class="header-conteudo">
             <div class="header-esquerda">
-                
+
                 <button class="menu-hamburguer">
                     <span></span>
                     <span></span>
@@ -38,7 +39,7 @@
             <nav class="menu-principal">
                 <ul>
                     <li>
-                        <a  href="#Home">Home</a>
+                        <a href="#Home">Home</a>
                     </li>
                     <li>
                         <a href="#Products">Products</a>
@@ -55,10 +56,10 @@
 
                 </ul>
             </nav>
-            
-            
+
+
             <button class="botao-carrinho" data-micromodal-trigger="modal-1">
-            
+
                 <img src="/assets/images/icone_carrinho.svg" alt="Carrinho">
                 <span>1</span>
             </button>
@@ -66,37 +67,106 @@
         </div>
     </header>
     <main>
-        <section id="Home">
-            <h2>Home</h2>
-        </section>
-        <section id="Products">
-            <h2>Products</h2>
+
+        <section class = "produtos">
+            <h2>Produtos</h2>
             <ul>
-                <li>
-                    <figure>
+                <li class ="produto" data-id="camiseta-roxa">
+                    <figure >
                         <img src="/assets/images/camiseta_roxa.jpg" alt="camisetaDev Em Dobro -Roxa">
-                        <figcaption>Camiseta Dev em Dobro</figcaption>
+                        <figcaption class="nome">Camiseta Dev em Dobro</figcaption>
                     </figure>
-                    <div>
-                        <span>Tamanho M</span>
-                        <span>Cor: Roxa</span>
-                        <span>R$ 79,90</span>
-                        <button>Comprar</button>
+                    <div class="informacoes">
+                        <span><strong>Tamanho :</strong>M</span>
+                        <span><strong>Cor :</strong>Roxa</span>
+                        <span class="preco">R$ 79,90</span>
+                        <button class="adicionar-ao-carrinho">Comprar</button>
                     </div>
                 </li>
-                <li>
+                <li class ="produto" data-id="caneca-branca">
                     <figure>
-                        <img src="/assets/images/camiseta_roxa.jpg" alt="camisetaDev Em Dobro -Roxa">
-                        <figcaption>Camiseta Dev em Dobro</figcaption>
+                        <img src="/assets/images/caneca_devemdobro.jpg" alt="caneca Em Dobro -Roxa">
+                        <figcaption>Caneca Dev em Dobro</figcaption>
                     </figure>
-                    <div>
-                        <span>Tamanho P</span>
-                        <span>Cor: Roxa</span>
-                        <span>R$ 99,90</span>
-                        <button>Comprar</button>
+                    <div class="informacoes">
+                        <span><strong>Capacidade :</strong>700ml</span>
+                        <span><strong>Cor :</strong> Branca</span>
+                        <span class="preco">R$ 99,90</span>
+                        <button class="adicionar-ao-carrinho">Comprar</button>
                     </div>
                 </li>
-                <li>Product 3</li>
+                <li class ="produto" data-id="caneca-branca">
+                    <figure>
+                        <img src="/assets/images/caneca_devemdobro.jpg" alt="caneca Em Dobro -Roxa">
+                        <figcaption>Caneca Dev em Dobro</figcaption>
+                    </figure>
+                    <div class="informacoes">
+                        <span><strong>Capacidade :</strong>700ml</span>
+                        <span><strong>Cor :</strong> Branca</span>
+                        <span class="preco">R$ 99,90</span>
+                        <button class="adicionar-ao-carrinho">Comprar</button>
+                    </div>
+                </li>
+                <li class ="produto" data-id="caneca-branca">
+                    <figure>
+                        <img src="/assets/images/caneca_devemdobro.jpg" alt="caneca Em Dobro -Roxa">
+                        <figcaption>Caneca Dev em Dobro</figcaption>
+                    </figure>
+                    <div class="informacoes">
+                        <span><strong>Capacidade :</strong>700ml</span>
+                        <span><strong>Cor :</strong> Branca</span>
+                        <span class="preco">R$ 99,90</span>
+                        <button class="adicionar-ao-carrinho">Comprar</button>
+                    </div>
+                </li>
+                <li class ="produto" data-id="caneca-branca">
+                    <figure>
+                        <img src="/assets/images/caneca_devemdobro.jpg" alt="caneca Em Dobro -Roxa">
+                        <figcaption>Caneca Dev em Dobro</figcaption>
+                    </figure>
+                    <div class="informacoes">
+                        <span><strong>Capacidade :</strong>700ml</span>
+                        <span><strong>Cor :</strong> Branca</span>
+                        <span class="preco">R$ 99,90</span>
+                        <button class="adicionar-ao-carrinho">Comprar</button>
+                    </div>
+                </li>
+                <li class ="produto" data-id="caneca-branca">
+                    <figure>
+                        <img src="/assets/images/caneca_devemdobro.jpg" alt="caneca Em Dobro -Roxa">
+                        <figcaption>Caneca Dev em Dobro</figcaption>
+                    </figure>
+                    <div class="informacoes">
+                        <span><strong>Capacidade :</strong>700ml</span>
+                        <span><strong>Cor :</strong> Branca</span>
+                        <span class="preco">R$ 99,90</span>
+                        <button class="adicionar-ao-carrinho">Comprar</button>
+                    </div>
+                </li>
+                <li class ="produto" data-id="caneca-branca">
+                    <figure>
+                        <img src="/assets/images/caneca_devemdobro.jpg" alt="caneca Em Dobro -Roxa">
+                        <figcaption>Caneca Dev em Dobro</figcaption>
+                    </figure>
+                    <div class="informacoes">
+                        <span><strong>Capacidade :</strong>700ml</span>
+                        <span><strong>Cor :</strong> Branca</span>
+                        <span class="preco">R$ 99,90</span>
+                        <button class="adicionar-ao-carrinho">Comprar</button>
+                    </div>
+                </li>
+                <li class ="produto" data-id="caneca-branca">
+                    <figure>
+                        <img src="/assets/images/caneca_devemdobro.jpg" alt="caneca Em Dobro -Roxa">
+                        <figcaption>Caneca Dev em Dobro</figcaption>
+                    </figure>
+                    <div class="informacoes">
+                        <span><strong>Capacidade :</strong>700ml</span>
+                        <span><strong>Cor :</strong> Branca</span>
+                        <span class="preco">R$ 99,90</span>
+                        <button class="adicionar-ao-carrinho">Comprar</button>
+                    </div>
+                </li>
             </ul>
         </section>
         <section id="About">
