@@ -53,7 +53,7 @@
 }
 
 .cabecalho .menu-principal ul li a:hover {
-    background-color: var(--cor-accento);
+    background-color: var(--cor-hover);
 }
 
 .cabecalho.menu-ativo .menu-principal {
@@ -125,18 +125,21 @@
         display: block;
         position: static;
         width: auto;
-        
         padding: 0;
     }
 
     .cabecalho .menu-principal ul {
         flex-direction: row;
-        gap: 2rem;
+        gap: 0.7rem;
         padding: 0;
     }
 
-    .cabecalho .menu-principal ul li a {
-        padding: 0;
+    .menu-hamburguer {
+        display: none;
+    }
+
+    .cabecalho ul li a {
+        font-size: 0.9rem;
     }
 
 
@@ -147,6 +150,20 @@
     .cabecalho {
         max-width: 1170px;
         margin: 0 auto;
+    }
+
+    .cabecalho .menu-principal ul {
+        flex-direction: row;
+        gap: 1rem;
+        padding: 0;
+    }
+
+    .menu-hamburguer {
+        display: none;
+    }
+
+    .cabecalho ul li a {
+        font-size: 1rem;
     }
 
 }
